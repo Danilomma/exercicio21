@@ -1,0 +1,64 @@
+
+
+.hero {
+    padding: 6.6vw;
+    min-height: 10vh;
+    background-image: url(../images/depositphotos_129195342-stock-photo-a-landscape-at-war-with.jpg);
+    text-align: center;
+
+    @media (max-width:768px) {
+        background-image: url(../images/resgate.jpg);
+        padding-top: calc(50vw + 25px);
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-top: -55px;
+    }
+}
+
+.herocontent {
+        max-width: 1000px;
+        }
+.herocontentbranding {
+        max-width: 1500px;
+        margin: 0 auto 38px;
+
+        @media (max-width:768px) {
+            max-width: 180px;
+        }
+        }
+
+        .titlesmall {
+            margin-bottom: 64px;
+            color: white;
+        }
+
+        .p {
+            margin-bottom: 20px;
+
+            &:last-child {
+                margin-top: 60px;
+            }
+        }
+
+.herocontentcombos { 
+            display: flex;
+            justify-content: space-between;
+
+            @media (max-width:768px) {
+                display: block;
+            }
+                    }
+
+.herocontentcomboscombo {  
+                width: 450px;
+
+                @media (max-width:768px) {
+                    width: 100%;
+                    margin-bottom: 24px;
+                }
+                }
+
+                img {
+                    max-width: 1500px;
+                }
+            
