@@ -3,11 +3,9 @@
 .hero {
     padding: 6.6vw;
     min-height: 10vh;
-    background-image: url(../images/depositphotos_129195342-stock-photo-a-landscape-at-war-with.jpg);
     text-align: center;
 
     @media (max-width:768px) {
-        background-image: url(../images/resgate.jpg);
         padding-top: calc(50vw + 25px);
         background-size: contain;
         background-repeat: no-repeat;
